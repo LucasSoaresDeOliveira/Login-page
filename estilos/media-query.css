@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #fd5c2d, #ce6000, #4e2b35);
+    }
+    
+    section#login {
+        width: 80vw;
+        height: 280px;
+    }
+
+    section#login > div#imag {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formu {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #fd5c2d, #ce6000, #4e2b35);
+    }
+
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#imag {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formu {
+        float: right;
+        width: 50%;
+    }
+
+    div#formu > h1 {
+        font-size: 2em;
+
+    }
+    
+    div#formu > p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+}
